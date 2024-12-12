@@ -1,0 +1,119 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.left {
+    flex: 1;
+    background-color: #f2f2f2;
+}
+
+.left img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+
+h1, p, button {
+    margin: 10px;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.box-container {
+    display: flex;
+    gap: 60px; /* Adjust the gap between cards */
+    width: 95%;
+    height: auto;
+}
+
+.box {
+    background-color: #ffffff; /* Background color of the card */
+    border-radius: 8px; /* Adjust border-radius as needed */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adjust box-shadow as needed */
+    padding: 20px; /* Adjust padding as needed */
+    width: calc(33.33% - 20px); /* Adjust width of each card */
+    /* Other styles for the card */
+}
+
+/* Additional styles for elements inside the card */
+.box img {
+    max-width: 100%;
+    height: auto;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.qty {
+    width: 50px; /* Adjust width of the quantity input */
+}
+.title{
+    font-size: 60px;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+

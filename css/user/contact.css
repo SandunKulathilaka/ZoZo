@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+
+
+html{
+   overflow-x: hidden;
+   scroll-behavior: smooth;
+   stop-opacity: 7rem;
+}
+.heading{
+    color: white;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://images.pexels.com/photos/2387793/pexels-photo-2387793.jpeg");
+    width: 100%;
+}
+.form-group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    margin: 5px;
+}
+
+.form-group>label{
+    width: 180px;
+    color: white;
+}
